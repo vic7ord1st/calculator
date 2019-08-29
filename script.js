@@ -2,7 +2,12 @@ function getValue(value) {
     console.log(value);
     if (document.querySelector('.display').textContent == 'syntax error') {
         document.querySelector('.display').style.color = "rgb(0, 0, 0)";
-        document.querySelector('.display').textContent = value;
+        if (value = 'clear') {
+            document.querySelector('.display').textContent = '0'
+        }
+        else {
+            document.querySelector('.display').textContent = value;
+        }
     }
     else {
         if (value == 'clear') {
