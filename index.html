@@ -9,27 +9,27 @@
 <body>
     <div class="calculator_body">
         <!-- The Display-->
-        <div class="display"> 0 </div>
+        <div class="display">0</div>
         <!-- The keys-->
         <div class="keys">
-            <button class="operator" data-action="clear">C</button>
-            <button class="operator" data-action="percentage">%</button>
-            <button class="operator" data-action="divide">/</button>
-            <button class="operator" data-action="times">x</button>
-            <button class="numeric-key">1</button>
-            <button class="numeric-key">2</button>
-            <button class="numeric-key">3</button>
-            <button class="operator" data-action="minus">-</button>
-            <button class="numeric-key">4</button>
-            <button class="numeric-key">5</button>
-            <button class="numeric-key">6</button>
-            <button class="numeric-key">7</button>
-            <button class="numeric-key">8</button>
-            <button class="numeric-key">9</button>
-            <button class="operator, plus" data-action="plus">+</button>
-            <button class="numeric-key">0</button>
-            <button class="operator" class="operator" data-action="decimal">.</button>
-            <button class="operator" data-action="equals">=</button>
+            <button class="operator" onclick= "getValue('clear')">C</button>
+            <button class="operator" onclick = "getValue('sqrt')">sqrt</button>
+            <button class="operator" onclick = "getValue('/')">/</button>
+            <button class="operator" onclick = "getValue('&times')">&times</button>
+            <button class="numeric-key" onclick = "getValue(1)">1</button>
+            <button class="numeric-key" onclick = "getValue(2)">2</button>
+            <button class="numeric-key" onclick= "getValue(3)">3</button>
+            <button class="operator" onclick = "getValue('-')">-</button>
+            <button class="numeric-key" onclick= "getValue(4)">4</button>
+            <button class="numeric-key" onclick= "getValue(5)">5</button>
+            <button class="numeric-key" onclick= "getValue(6)">6</button>
+            <button class="numeric-key" onclick= "getValue(7)">7</button>
+            <button class="numeric-key" onclick= "getValue(8)">8</button>
+            <button class="numeric-key" onclick= "getValue(9)">9</button>
+            <button class="operator, plus" onclick = "getValue('+')">+</button>
+            <button class="operator" onclick = "getValue('.')">.</button>
+            <button class="numeric-key" onclick= "getValue(0)">0</button>
+            <button class="operator" onclick = "getValue('equals')">=</button>
         </div>
     </div>
 </body>
