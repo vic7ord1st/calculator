@@ -44,11 +44,17 @@ div.keys{
     top: 1px;
     padding: 0.6em 1.5em;
     position: relative;
-    text-align: center;
-    background-color: #346297;
+    text-align: center; 
+    background-color: #4170a7;
 }
 button.numeric-key{
-    background-color: darkgray !important;
+    background-color: darkgray;
+}
+button.operator:hover{
+    background-color: #346297;
+}
+button.numeric-key:hover{
+    background-color: dimgrey;
 }
 button.plus{
     font-weight: 900;
